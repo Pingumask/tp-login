@@ -1,0 +1,23 @@
+[
+	{
+		"id": "01",
+		"name": "Loïc Durand",
+		"designation": "Admin",
+		"password": "qwerty1",
+		"pseudo": "Eleve1"
+	},
+	{
+		"id": "02",
+		"name": "Stanislas Mouchet",
+		"designation": "User",
+		"password": "qwerty2",
+		"pseudo": "Eleve2"
+	},
+	{
+		"id": "03",
+		"name": "Julien Emeriau",
+		"designation": "User",
+		"password": "qwerty3",
+		"pseudo": "Eleve3"
+	}
+]
