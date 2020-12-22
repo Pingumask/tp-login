@@ -8,8 +8,9 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="error"><?php if (isset($_SESSION['error'])) echo $_SESSION['error'];?></div>
+ <?php if (isset($_SESSION['error'])) echo '<div id="error">'.$_SESSION['error'].'</div>';?>
   <form action="login" method="post">
+    <h1>Identification</h1>
     <input type="text" name="login" placeholder="login"/>
     <input type="password" name="password" placeholder="password"/>
     <button type="submit">login</button>
